@@ -1,0 +1,64 @@
+package CommentPack;
+
+
+import java.util.ArrayList;
+
+public class Node{
+    public String __typename;
+    public CommentRenderingInstanceForFeedLocationComment comment_rendering_instance_for_feed_location;
+    public String id;
+    public Feedback feedback;
+    public String legacy_fbid;
+    public int depth;
+    public BodyComment body;
+    public ArrayList<AttachmentComment> attachments;
+    public boolean is_markdown_enabled;
+    public Object community_comment_signal_renderer;
+    public String comment_menu_tooltip;
+    public boolean should_show_comment_menu;
+    public AuthorComment author;
+    public boolean is_author_weak_reference;
+    public ArrayList<CommentActionLinkComment> comment_action_links;
+    public PreferredBody preferred_body;
+    public BodyRendererComment body_renderer;
+    public Object comment_parent;
+    public boolean is_declined_by_group_admin_assistant;
+    public boolean is_gaming_video_comment;
+    public Object timestamp_in_video;
+    public TranslatabilityForViewer translatability_for_viewer;
+    public boolean written_while_video_was_live;
+    public Object group_comment_info;
+    public Object bizweb_comment_info;
+    public boolean has_constituent_badge;
+    public boolean can_viewer_see_subsribe_button;
+    public boolean can_see_constituent_badge_upsell;
+    public String legacy_token;
+    public ParentFeedback parent_feedback;
+    public Object question_and_answer_type;
+    public boolean is_author_original_poster;
+    public boolean is_viewer_comment_poster;
+    public boolean is_author_bot;
+    public boolean is_author_non_coworker;
+    public Object author_user_signals_renderer;
+    public ArrayList<Object> author_badge_renderers;
+    public ArrayList<IdentityBadgesWeb> identity_badges_web;
+    public boolean can_show_multiple_identity_badges;
+    public ArrayList<DiscoverableIdentityBadgesWeb> discoverable_identity_badges_web;
+    public User user;
+    public ParentPostStory parent_post_story;
+    public Object work_ama_answer_status;
+    public Object work_knowledge_inline_annotation_comment_badge_renderer;
+    public ArrayList<Object> business_comment_attributes;
+    public boolean is_live_video_comment;
+    public int created_time;
+    public boolean translation_available_for_viewer;
+    public Object inline_survey_config;
+    public String spam_display_mode;
+    public Object attached_story;
+    public Object comment_direct_parent;
+    public Object if_viewer_can_see_member_page_tooltip;
+    public boolean is_disabled;
+    public Object work_answered_event_comment_renderer;
+    public Object comment_upper_badge_renderer;
+    public Object elevated_comment_data;
+}
